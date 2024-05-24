@@ -128,8 +128,7 @@ input {
 }
 
 .m-5 .row {
-  background: linear-gradient(to right, #ffffff, #c7e2e4)
-
+  background: linear-gradient(to right, #ffffff, #c7e2e4);
 }
 
 .col-4 .border {
@@ -199,7 +198,7 @@ input {
 }
 
 .faq {
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.7);
   margin: 10px 0;
 }
 
@@ -220,7 +219,7 @@ input {
 .div-number {
   width: 60px;
   height: 60px;
-  background-color: #353c4b;
+  background-color: #b4b4b4;
   align-items: center;
   text-align: center;
   border-radius: 12px;
@@ -230,4 +229,58 @@ input {
 .how-it-works-section {
   background-color: pink;
   padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #ffe1d2;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  width: calc(48% - 10px);
+}
+
+.card i {
+  color: #353c4b;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.card h4 {
+  color: #353c4b;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #353c4b;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+.card.real-time-notification {
+  background-color: #ffe1d2;
+  border-radius: 25px;
+}
+.card.reward-points-program {
+  background-color: #d6eaec;
+  border-radius: 25px;
+}
+.card.nearby-restaurant-map {
+  background-color: #e7f3cc;
+  border-radius: 25px;
+}
+.card.nutritional-information {
+  background-color: #fff1d2;
+  border-radius: 25px;
+}
+
+.accordion-button.collapsed {
+  background-color: #f4f4f4;
 }
